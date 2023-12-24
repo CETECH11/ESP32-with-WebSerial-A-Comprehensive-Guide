@@ -3,14 +3,17 @@
 ![alt text](https://hackster.imgix.net/uploads/attachments/1665491/_Kaj0Pkck7H.blob?auto=compress%2Cformat&w=900&h=675&fit=min)
 
 Introduction
+
 The ESP32 is a versatile and inexpensive microcontroller that has taken the hobbyist and professional world by storm. It’s a powerful tool with built-in Wi-Fi and Bluetooth capabilities, making it an ideal choice for Internet of Things (IoT) projects. One of its many features is the ability to communicate over serial, which can be extended to the web using WebSerial. This blog post will delve into setting up an ESP32 with WebSerial.
 
 Understanding WebSerial
+
 WebSerial is a web standard that allows websites to communicate with serial devices. It bridges the web and the physical world, enabling web applications to interact with hardware devices. This opens up a world of possibilities for IoT projects, allowing real-time interaction between web applications and physical devices.
 
 ![alt text](https://hackster.imgix.net/uploads/attachments/1665486/image_yph6XMeVY9.png?auto=compress%2Cformat&w=740&h=555&fit=max)
 
 Setting Up the ESP32
+
 Before we can use WebSerial with the ESP32, we need to set up the ESP32 development environment. Here are the steps:
 
 Install the Arduino IDE: The Arduino IDE is a popular platform for writing and uploading code to the ESP32. You can download it from the official Arduino website.
@@ -18,13 +21,14 @@ Install the ESP32 Board in Arduino IDE: You can add the ESP32 board to the Ardui
 Select the ESP32 Board: Go to Tools > Board > ESP32 Arduino and select your ESP32 board. This tells the Arduino IDE that you will be programming an ESP32 board.
 
 Install WebSerial for ESP32
+
 Next, we need to install the WebSerial library. Here’s how:
 
 Go to Sketch > Include Library > Manage Libraries.
 In the search bar, type WebSerial.
 Click Install.
 
-![alt text]()
+![alt text](https://hackster.imgix.net/uploads/attachments/1665490/image_YIWBKb0Ldl.png?auto=compress%2Cformat&w=740&h=555&fit=max)
 
 Programming the ESP32 for WebSerial
 Once the ESP32 is set up, we can write a program to enable WebSerial communication. Here’s a simple example:
@@ -103,6 +107,7 @@ Once you upload the code to ESP32, look for the serial terminal to know the IP a
 Node: Change the Wi-Fi credentials.
 
 Conclusion
+
 The ESP32 with WebSerial opens up a world of possibilities for IoT projects. By bridging the gap between the web and the physical world, we can create interactive, real-time applications that communicate with hardware devices. Whether you’re a hobbyist or a professional developer, the ESP32 with WebSerial is a powerful tool in your IoT toolkit. With this detailed guide, you should now have a solid understanding of how to set up and use the ESP32 with WebSerial. Happy coding!
 
 ![alt text](https://hackster.imgix.net/uploads/attachments/1518136/8_tJuwoRM3dI.JPG?auto=compress%2Cformat&w=740&h=555&fit=max)
